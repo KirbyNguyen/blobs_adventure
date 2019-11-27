@@ -2,7 +2,7 @@
     "id": "b58a44be-906a-451c-8ca9-5881c6c33df3",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sor_blob_idle",
+    "name": "spr_blob_idle",
     "For3D": false,
     "HTile": false,
     "VTile": false,
