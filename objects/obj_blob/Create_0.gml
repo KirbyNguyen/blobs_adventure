@@ -26,6 +26,9 @@ vspd = 0;
 walkspd = 2.5;
 grav = 0.2;
 
+// Timer for the player to jump
+jump_enable = 0;
+
 // Setting the state
 state = STATE.ONGROUND;
 
