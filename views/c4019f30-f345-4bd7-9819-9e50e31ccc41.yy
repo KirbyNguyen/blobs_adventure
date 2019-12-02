@@ -6,7 +6,8 @@
     "children": [
         "3370af1a-fe1f-47ff-bd7c-23aeb70ed291",
         "9c5496dd-da58-4045-a7f5-f9c574564876",
-        "2de97f83-c769-4060-8945-895fd889bb64"
+        "2de97f83-c769-4060-8945-895fd889bb64",
+        "98f9a980-afd7-4e6a-9ea2-3baa12290998"
     ],
     "filterType": "GMObject",
     "folderName": "Blob's Objects",

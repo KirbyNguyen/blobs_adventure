@@ -19,11 +19,15 @@ if (sign(vspd) > 0) {
 
 // Allow jump buffer
 // If the player press jump after falling from a platform, Blob will still be able to jump
-if (key_jump && jump_enable > 0) {
+if (key_jump && jump_timer > 0) {
 	vspd -= 5.5;
-	jump_enable = 0;
+	jump_timer = 0;
 }
 
 // Change to ONGROUND if Blob is onground
 if (place_meeting(x, y + 1, obj_wall))
 	state = STATE.ONGROUND;
+	
+	// Changing to state ATTACK if ATTACK KEY is pressed
+if (key_attack && stamina > 0)
+	state = STATE.ATTACK;

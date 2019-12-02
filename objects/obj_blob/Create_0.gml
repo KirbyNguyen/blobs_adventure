@@ -15,6 +15,7 @@ enum STATE {
 MAXHP = 5;
 MAXSTAMINA = 5;
 IMGSPD = 0.6;
+FRACTION = 0.75;
 
 // Setting stats
 hp = MAXHP;
@@ -26,8 +27,12 @@ vspd = 0;
 walkspd = 2.5;
 grav = 0.2;
 
-// Timer for the player to jump
-jump_enable = 0;
+// Timers
+jump_timer = 0; // For jump buffer
+stamina_timer = 0; // For stamina recover
+
+// Rates
+stamina_rate = 0.03;
 
 // Setting the state
 state = STATE.ONGROUND;
