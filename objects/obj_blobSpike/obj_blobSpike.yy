@@ -1,8 +1,8 @@
 {
-    "id": "9c5496dd-da58-4045-a7f5-f9c574564876",
+    "id": "2de97f83-c769-4060-8945-895fd889bb64",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_blob_hitbox",
+    "name": "obj_blobSpike",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "900e0991-2029-4f83-bfbb-15c644d833fc",
+    "spriteId": "1b4190b3-8262-4368-8570-f23bb8746bb9",
     "visible": true
 }

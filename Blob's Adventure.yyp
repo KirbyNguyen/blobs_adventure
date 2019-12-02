@@ -90,7 +90,7 @@
             "Key": "2de97f83-c769-4060-8945-895fd889bb64",
             "Value": {
                 "id": "01c476c7-f520-4237-91a7-42979bc49d4c",
-                "resourcePath": "objects\\obj_blob_spike\\obj_blob_spike.yy",
+                "resourcePath": "objects\\obj_blobSpike\\obj_blobSpike.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "8192a854-5457-4e22-a1cc-3a725065df17",
+            "Value": {
+                "id": "1086c94f-fb3b-4fd7-b8e4-cd84e88b6a75",
+                "resourcePath": "scripts\\scr_createSpikes\\scr_createSpikes.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "867e8475-28f3-4dd3-b5ab-3de2beff581f",
             "Value": {
                 "id": "23f66481-782b-42a6-b0eb-9167d2c65ec2",
@@ -274,7 +282,7 @@
             "Key": "9c5496dd-da58-4045-a7f5-f9c574564876",
             "Value": {
                 "id": "073af923-7961-42c1-a06a-b597b7690ec4",
-                "resourcePath": "objects\\obj_blob_hitbox\\obj_blob_hitbox.yy",
+                "resourcePath": "objects\\obj_blobHitBox\\obj_blobHitBox.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -487,7 +495,8 @@
         "89ef3e38-b92c-408c-8ed0-d6d22b08273e",
         "72f16330-a9a2-44c5-8653-a4a33e1fb440",
         "304b3e46-be9a-4944-95c3-fabfa65c1695",
-        "3ed8378d-ee9c-45da-a1b1-8d3acbaa86e1"
+        "3ed8378d-ee9c-45da-a1b1-8d3acbaa86e1",
+        "8192a854-5457-4e22-a1cc-3a725065df17"
     ],
     "tutorial": ""
 }
