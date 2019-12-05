@@ -20,6 +20,7 @@ FRACTION = 0.75;
 // Setting stats
 hp = MAXHP;
 stamina = MAXSTAMINA;
+life = 2;
 
 // Movement variables
 hspd = 0;

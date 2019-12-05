@@ -11,7 +11,7 @@ if (sprite_index != spr_blob_dizzy || sprite_index != spr_blob_dizzy_a)
 		sprite_index = spr_blob_dizzy_a;
 
 // Changing back to normal state
-if (stamina >= 5) {
+if (stamina >= 4) {
 	// If the Blob is on the ground, change to ONGROUND
 	if (place_meeting(x, y + 1, obj_wall))
 		state = STATE.ONGROUND;
