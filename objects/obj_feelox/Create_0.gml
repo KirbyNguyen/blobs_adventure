@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Variables initialization
 
 // Constants
 IMGSPD = 0.35;
