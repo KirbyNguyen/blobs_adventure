@@ -1,16 +1,5 @@
 /// @description Variables Declaration
 
-// STATE MACHINE NAME
-enum STATE {
-	ONGROUND,
-	JUMP,
-	ATTACK,
-	RECOVER,
-	DIZZY,
-	HURT,
-	DEATH
-}
-
 // CONSTANTS 
 MAXHP = 5;
 MAXSTAMINA = 5;
@@ -23,9 +12,9 @@ stamina = MAXSTAMINA;
 life = 2;
 
 // Movement variables
+walkspd = 2.5;
 hspd = 0;
 vspd = 0;
-walkspd = 2.5;
 grav = 0.2;
 
 // Timers

@@ -5,7 +5,8 @@
     "name": "6ba0cc43-c7e0-410b-8d52-048fdefee334",
     "children": [
         "72210bd2-3adf-445e-b36a-55e14cc2a2d4",
-        "940af4fc-6028-4e6e-b3cc-b1a62a7045dd"
+        "f0dd253c-2532-4ed9-9121-5942b9de2dcd",
+        "78f813ff-4384-4da0-8307-48fa89a3a5df"
     ],
     "filterType": "GMObject",
     "folderName": "Templates",
