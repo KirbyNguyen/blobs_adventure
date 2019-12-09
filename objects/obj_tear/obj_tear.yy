@@ -1,14 +1,23 @@
 {
-    "id": "78f813ff-4384-4da0-8307-48fa89a3a5df",
+    "id": "bdeac5d2-841b-413c-b0a7-625b62718681",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy",
+    "name": "obj_tear",
     "eventList": [
-        
+        {
+            "id": "3dc09d57-5b9e-47a2-aaed-9c6488183812",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "bdeac5d2-841b-413c-b0a7-625b62718681"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "f0dd253c-2532-4ed9-9121-5942b9de2dcd",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "84543715-0c4f-4e1e-bcf8-fb7f2a880def",
     "visible": true
 }

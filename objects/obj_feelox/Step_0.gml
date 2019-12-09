@@ -1,5 +1,8 @@
 /// @description State machine
 
+// Change STATE when got damage
+event_inherited();
+
 // Executing state machine
 switch (state) {
 	case STATE.IDLE:
@@ -12,6 +15,7 @@ switch (state) {
 		feelox_fall();
 		break;
 	case STATE.DEATH:
+		feelox_death();
 		break;
 }
 
@@ -25,4 +29,8 @@ scr_collision();
 state_timer -= 1;
 
 // Flipping the sprites
-if (hspd != 0) image_xscale = sign(hspd);
+if (hspd != 0)
+	if (state != STATE.DEATH)
+		image_xscale = sign(hspd);
+	else
+		image_xscale = -sign(hspd);

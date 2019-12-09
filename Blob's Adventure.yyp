@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "798d3a2e-979f-4327-b3c9-206a9b634e98",
+            "Value": {
+                "id": "fe39778d-8e09-4830-a5ba-3fd1ba00f66d",
+                "resourcePath": "scripts\\feelox_death\\feelox_death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7fc15882-fe38-4b00-bb56-0494417ac483",
             "Value": {
                 "id": "47b00f1f-9e52-4343-84e1-1cb11cfc5262",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "84543715-0c4f-4e1e-bcf8-fb7f2a880def",
+            "Value": {
+                "id": "6d5b71be-9bab-439c-9183-206ad63c1dd8",
+                "resourcePath": "sprites\\spr_tear\\spr_tear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "867e8475-28f3-4dd3-b5ab-3de2beff581f",
             "Value": {
                 "id": "23f66481-782b-42a6-b0eb-9167d2c65ec2",
@@ -356,6 +372,14 @@
                 "id": "3a484c4b-7c6f-4f37-ab3e-49557ec7f052",
                 "resourcePath": "scripts\\state_recover\\state_recover.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8b030a5a-d134-4449-a113-adb9b3f7ecf6",
+            "Value": {
+                "id": "294b27bc-07cc-4eae-8891-0494e19dea53",
+                "resourcePath": "views\\8b030a5a-d134-4449-a113-adb9b3f7ecf6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -468,6 +492,14 @@
                 "id": "d5960a7c-2385-4e1b-9514-7b322df583d0",
                 "resourcePath": "sprites\\spr_GUI_life\\spr_GUI_life.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bdeac5d2-841b-413c-b0a7-625b62718681",
+            "Value": {
+                "id": "b9c47091-0699-4c21-8382-83ffb848ba93",
+                "resourcePath": "objects\\obj_tear\\obj_tear.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -675,7 +707,8 @@
         "72f16330-a9a2-44c5-8653-a4a33e1fb440",
         "5586aae9-02fa-4419-9e56-c77acdc05e54",
         "7fc15882-fe38-4b00-bb56-0494417ac483",
-        "c277eb14-2966-4314-ab8c-e6648f46e6ac"
+        "c277eb14-2966-4314-ab8c-e6648f46e6ac",
+        "798d3a2e-979f-4327-b3c9-206a9b634e98"
     ],
     "tutorial": ""
 }
