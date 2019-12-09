@@ -38,7 +38,7 @@ state != STATE.ATTACK && state != STATE.RECOVER) {
 // Gravity
 scr_gravity();
 
-// Collision
+// Collision and movement
 scr_collision();
 
 // Jump buffer
