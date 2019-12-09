@@ -7,13 +7,16 @@ IMGSPD = 0.35;
 hp = 1;
 
 // Movement variables
-walkspd = 2.5;
-hspd = walkspd;
+walkspd = -1;
+hspd = 0;
 vspd = 0;
 grav = 0.2;
 
+// Timers
+state_timer = 0;
+
 // Setting the state machine
-state = STATE.ONGROUND;
+state = STATE.IDLE;
 
 // Image_speed
 image_speed = IMGSPD;

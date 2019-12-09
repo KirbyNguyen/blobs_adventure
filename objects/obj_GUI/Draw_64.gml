@@ -11,7 +11,7 @@ draw_set_halign(fa_right);
 draw_text(xB, yB, "Blob: ");
 draw_text(xSta, ySta, "Stamina: ");
 draw_text(xScore, yScore, "Scores: ");
-draw_text(xTimer, yTimer, "Time: ");
+draw_text(xTimer, yTimer, "Timer: ");
 
 // Drawing HP
 for (var i = 0; i < obj_blob.MAXHP; i++) {
