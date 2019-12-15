@@ -13,11 +13,14 @@ if (sprite_index != spr_feelox_walk) {
 // Change the walking speed
 hspd = walkspd * sign(image_xscale);
 
-// Move to the oposite sign when hit the wall
-if (place_meeting(x + hspd, y, obj_wall)) {
+// Move to the oposite side when hit the wall
+if (place_meeting(x + hspd, y, obj_wall))
 	hspd *= -1;
-}
 
+// Move to the oposite side when there is no wall two blocks under
+if (!place_meeting(x + sign(hspd), y + 32, obj_wall))
+	hspd *= -1;
+	
 // Change to JUMP if there is no ground underneath
 if (!place_meeting(x, y + 1, obj_wall))
 	state = STATE.JUMP;	

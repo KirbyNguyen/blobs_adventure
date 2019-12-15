@@ -1,0 +1,1 @@
+obj_controller.timer = 300;
