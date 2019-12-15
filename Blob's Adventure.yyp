@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "07dd576c-7f9f-41cc-b93e-556cdedc45ae",
+            "Value": {
+                "id": "89e956e5-ac21-484e-b9a2-05000677a223",
+                "resourcePath": "sprites\\spr_heartweb_projectile\\spr_heartweb_projectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0943c411-fc83-4fca-9b80-e90b8e4452f5",
             "Value": {
                 "id": "1d1750cc-478e-407b-a473-281aceded099",
