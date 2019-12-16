@@ -1,26 +1,30 @@
 /// @description State machine
 
-// Damage Feelox
+// Damage Heartweb
 event_inherited();
 
 // STATE MACHINE
 switch (state) {
+	case STATE.JUMP:
+		heartweb_descend();
+		break;
 	case STATE.IDLE:
-		feelox_idle();
+		heartweb_idle();
 		break;
 	case STATE.WALK:
-		feelox_walk();
+		heartweb_walk();
 		break;
-	case STATE.JUMP:
-		feelox_fall();
+	case STATE.ATTACK:
+		heartweb_attack();
 		break;
 	case STATE.DEATH:
-		feelox_death();
+		heartweb_death();
 		break;
 }
 
 // Gravity
-scr_gravity();
+if (state != STATE.JUMP)
+	scr_gravity();
 
 // Collision and Movement
 scr_collision();

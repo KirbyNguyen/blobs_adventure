@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "46e32cd9-b31f-4d0c-9e03-536598d36437",
+            "Value": {
+                "id": "edacd249-7a97-4f4c-8e43-c25395d2a554",
+                "resourcePath": "scripts\\heartweb_attack\\heartweb_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "475ad047-585d-4734-b566-10dddc153b8e",
             "Value": {
                 "id": "4a4e17f6-398d-4fa9-961d-f4a6f82838fc",
@@ -263,11 +271,27 @@
             }
         },
         {
+            "Key": "489fc773-2dd2-46b4-a9ae-4785823bf636",
+            "Value": {
+                "id": "88148d20-c81f-4068-b454-7d7993aac828",
+                "resourcePath": "paths\\path_heartweb_descend\\path_heartweb_descend.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "48a0cc1c-ddc2-4eae-8aad-69753e5d6215",
             "Value": {
                 "id": "581ac42a-f59e-4cd5-a336-10294d54df74",
                 "resourcePath": "fonts\\fnt_mana_20\\fnt_mana_20.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "4a0280ab-4e0d-4c5a-9f40-b74a7b260138",
+            "Value": {
+                "id": "709e198f-c84b-4888-b5e5-4c7db2416dec",
+                "resourcePath": "scripts\\heartweb_death\\heartweb_death.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -284,6 +308,14 @@
                 "id": "fde04d35-9c2a-4888-81ae-7e391b3ffeba",
                 "resourcePath": "sprites\\spr_GUI_stat\\spr_GUI_stat.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5da0f332-403e-4f29-8653-e3e62851ad9d",
+            "Value": {
+                "id": "4d96f2ce-e079-4027-a0c9-cb3c9ab86f22",
+                "resourcePath": "views\\5da0f332-403e-4f29-8653-e3e62851ad9d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -687,6 +719,14 @@
             }
         },
         {
+            "Key": "dc96f51e-66e9-4d3d-8f92-5c1b50d074d5",
+            "Value": {
+                "id": "f805d62e-32b6-497d-b431-a8821fc635ea",
+                "resourcePath": "scripts\\heartweb_descend\\heartweb_descend.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dfcc6ecf-68e0-4fe6-9184-e926bd65b094",
             "Value": {
                 "id": "bd2207bb-9eb7-4830-af74-4bd1d92d5e5e",
@@ -716,6 +756,14 @@
                 "id": "58259903-fbb1-44dd-961e-a59929bebc0d",
                 "resourcePath": "views\\e7c56abf-7b80-4b5e-991d-52ca69998164.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea5c1504-9e1b-460a-9a8f-0ed6e14a2f70",
+            "Value": {
+                "id": "a8e296d5-e9f4-48b1-a283-422bc6eed154",
+                "resourcePath": "scripts\\heartweb_idle\\heartweb_idle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -775,6 +823,14 @@
             }
         },
         {
+            "Key": "f8236b4a-668e-4508-84ea-1fdc4cf93f64",
+            "Value": {
+                "id": "75485570-e6df-4331-96a5-04ca8519642a",
+                "resourcePath": "scripts\\heartweb_walk\\heartweb_walk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f951e8b0-d628-474d-8905-23bf09bde2d4",
             "Value": {
                 "id": "9d26f152-62c3-43fb-adda-028ac0dfb8d8",
@@ -814,7 +870,12 @@
         "9cade2d5-51f4-4745-9c99-305df2ee9706",
         "a95cf37e-2814-44dc-903b-9fe4fae68ccc",
         "ecec5dab-8704-49b0-8767-d7b487dd7d4b",
-        "07ef4087-245e-484e-bc99-b75aa6d3a852"
+        "07ef4087-245e-484e-bc99-b75aa6d3a852",
+        "dc96f51e-66e9-4d3d-8f92-5c1b50d074d5",
+        "ea5c1504-9e1b-460a-9a8f-0ed6e14a2f70",
+        "f8236b4a-668e-4508-84ea-1fdc4cf93f64",
+        "46e32cd9-b31f-4d0c-9e03-536598d36437",
+        "4a0280ab-4e0d-4c5a-9f40-b74a7b260138"
     ],
     "tutorial": ""
 }
