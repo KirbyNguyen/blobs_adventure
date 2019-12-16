@@ -223,27 +223,11 @@
             }
         },
         {
-            "Key": "41bb24ef-2b85-47f5-b362-90b2a81a4c94",
-            "Value": {
-                "id": "fb1fbfdf-703b-4fc7-8c46-aa01942e13b9",
-                "resourcePath": "scripts\\heartweb_death\\heartweb_death.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "420a8a0a-6899-42a6-a54d-3c0a271a7ed5",
             "Value": {
                 "id": "2107486e-5374-4f25-889c-3572db018675",
                 "resourcePath": "views\\420a8a0a-6899-42a6-a54d-3c0a271a7ed5.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "452957c7-6f8b-4bda-a416-2bd2b461e8a5",
-            "Value": {
-                "id": "67cfd7c1-49d2-40ae-a11d-9398b71c80dd",
-                "resourcePath": "scripts\\heartweb_idle\\heartweb_idle.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -287,14 +271,6 @@
             }
         },
         {
-            "Key": "5586aae9-02fa-4419-9e56-c77acdc05e54",
-            "Value": {
-                "id": "f5d37f72-7a0f-45cf-b775-fcb45fa93ed9",
-                "resourcePath": "scripts\\feelox_idle\\feelox_idle.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5e2570a2-9d52-41d9-99aa-de764f9eade3",
             "Value": {
                 "id": "9307bbbf-cd2a-4036-9ab9-fee48abf20de",
@@ -307,14 +283,6 @@
             "Value": {
                 "id": "f5403bde-1709-4fea-97f3-786cc9eb363f",
                 "resourcePath": "scripts\\state_onGround\\state_onGround.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "6125e532-bc6a-4b11-8e28-3fbb5298449e",
-            "Value": {
-                "id": "df64a4ce-6425-4d83-9501-66a1eb7cf8ad",
-                "resourcePath": "scripts\\heartweb_walk\\heartweb_walk.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -375,35 +343,11 @@
             }
         },
         {
-            "Key": "782ff8ed-a2e5-42bd-9aae-070fb4de91fd",
-            "Value": {
-                "id": "aaa7166d-b405-4866-906c-10db864ee04c",
-                "resourcePath": "scripts\\scr_enemy_knockBack\\scr_enemy_knockBack.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "78f813ff-4384-4da0-8307-48fa89a3a5df",
             "Value": {
                 "id": "b823da92-e645-429e-a4ce-c07f37a4b9a4",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "798d3a2e-979f-4327-b3c9-206a9b634e98",
-            "Value": {
-                "id": "fe39778d-8e09-4830-a5ba-3fd1ba00f66d",
-                "resourcePath": "scripts\\feelox_death\\feelox_death.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7fc15882-fe38-4b00-bb56-0494417ac483",
-            "Value": {
-                "id": "47b00f1f-9e52-4343-84e1-1cb11cfc5262",
-                "resourcePath": "scripts\\feelox_walk\\feelox_walk.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -559,22 +503,6 @@
             }
         },
         {
-            "Key": "ad44f1d5-99f0-4306-b5eb-838dad99af9b",
-            "Value": {
-                "id": "90c39e4f-8110-4efa-91db-0ed53c4e8503",
-                "resourcePath": "scripts\\scr_enemy_turnAround\\scr_enemy_turnAround.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b20554d8-d09b-4dce-a13a-431038c0858b",
-            "Value": {
-                "id": "4b351776-7832-4093-9afe-3d76eeecd459",
-                "resourcePath": "scripts\\heartweb_attack\\heartweb_attack.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "b58a44be-906a-451c-8ca9-5881c6c33df3",
             "Value": {
                 "id": "25c1a40d-1e3a-4a72-9a14-296a58e8ad4d",
@@ -623,14 +551,6 @@
             }
         },
         {
-            "Key": "be73d8bf-5836-4f86-b299-96228996a2a5",
-            "Value": {
-                "id": "7f2f5f73-43e6-4093-b82e-d37251dd66b1",
-                "resourcePath": "scripts\\heartweb_down\\heartweb_down.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "bec9f3a9-cc17-4bf5-9b64-c4832b4f001b",
             "Value": {
                 "id": "afb4920c-eda7-42c8-8ff5-a7e871dc3289",
@@ -644,14 +564,6 @@
                 "id": "1a51c963-260f-4cad-b035-1245ab2680c4",
                 "resourcePath": "sprites\\spr_blob_walk_b\\spr_blob_walk_b.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c277eb14-2966-4314-ab8c-e6648f46e6ac",
-            "Value": {
-                "id": "89637017-5a89-4c08-b2bc-a7c44f3300b1",
-                "resourcePath": "scripts\\feelox_fall\\feelox_fall.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -844,22 +756,11 @@
         "304b3e46-be9a-4944-95c3-fabfa65c1695",
         "3ed8378d-ee9c-45da-a1b1-8d3acbaa86e1",
         "8192a854-5457-4e22-a1cc-3a725065df17",
-        "782ff8ed-a2e5-42bd-9aae-070fb4de91fd",
-        "ad44f1d5-99f0-4306-b5eb-838dad99af9b",
         "604196fc-880c-4feb-8651-2995e4807eef",
         "023684eb-5cd5-4107-a7e4-ebcb73d164ea",
         "80eba3f3-b678-421e-b2fb-cffd89439dee",
         "89ef3e38-b92c-408c-8ed0-d6d22b08273e",
-        "72f16330-a9a2-44c5-8653-a4a33e1fb440",
-        "5586aae9-02fa-4419-9e56-c77acdc05e54",
-        "7fc15882-fe38-4b00-bb56-0494417ac483",
-        "c277eb14-2966-4314-ab8c-e6648f46e6ac",
-        "798d3a2e-979f-4327-b3c9-206a9b634e98",
-        "be73d8bf-5836-4f86-b299-96228996a2a5",
-        "452957c7-6f8b-4bda-a416-2bd2b461e8a5",
-        "6125e532-bc6a-4b11-8e28-3fbb5298449e",
-        "b20554d8-d09b-4dce-a13a-431038c0858b",
-        "41bb24ef-2b85-47f5-b362-90b2a81a4c94"
+        "72f16330-a9a2-44c5-8653-a4a33e1fb440"
     ],
     "tutorial": ""
 }
