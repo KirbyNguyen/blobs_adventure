@@ -12,7 +12,7 @@ if (sprite_index != spr_feelox_walk) {
 	state_timer = room_speed * irandom_range(1, 3);
 }
 
-// Turn around when hit a wall
+// Turn around when hit a wall or if there is no block blow
 scr_enemy_turnAround(hspd * 4, obj_wall.sprite_height + 1);
 
 // Change to JUMP when in air

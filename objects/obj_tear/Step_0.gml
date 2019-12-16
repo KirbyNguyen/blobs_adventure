@@ -9,4 +9,3 @@ image_alpha = creator.image_alpha;
 
 // Flipping the sprite in the right direction
 image_xscale = creator.image_xscale;
-

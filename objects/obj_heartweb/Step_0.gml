@@ -23,12 +23,12 @@ switch (state) {
 }
 
 // Gravity
-if (state != STATE.JUMP)
+if (state != STATE.JUMP || state == STATE.DEATH)
 	scr_gravity();
 
 // Collision and Movement
 scr_collision();
 
-// Making Feelox turn to the right direction
+// Making Heartweb turn to the right direction
 if (state != STATE.DEATH)
 	if (dir == 0) image_xscale = 1 else image_xscale = -1;
