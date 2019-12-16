@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00f7f194-1b11-4a14-8061-0dbd4c8d552a",
+            "Value": {
+                "id": "3ffd903f-9b47-41ee-82d5-0e60f971c9f3",
+                "resourcePath": "scripts\\scr_enemy_knockBack\\scr_enemy_knockBack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "023684eb-5cd5-4107-a7e4-ebcb73d164ea",
             "Value": {
                 "id": "34245edf-7e96-4e20-91ec-3645a86b03fa",
@@ -52,6 +60,14 @@
                 "id": "89e956e5-ac21-484e-b9a2-05000677a223",
                 "resourcePath": "sprites\\spr_heartweb_projectile\\spr_heartweb_projectile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "07ef4087-245e-484e-bc99-b75aa6d3a852",
+            "Value": {
+                "id": "d090713b-b57e-4a17-b4df-a3f459d7f513",
+                "resourcePath": "scripts\\feelox_death\\feelox_death.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -399,6 +415,14 @@
             }
         },
         {
+            "Key": "88b38a04-5926-4312-b534-90d61137c0dc",
+            "Value": {
+                "id": "064e0433-2e37-4bf5-84d5-ed608e8cba00",
+                "resourcePath": "scripts\\scr_enemy_turnAround\\scr_enemy_turnAround.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "89ef3e38-b92c-408c-8ed0-d6d22b08273e",
             "Value": {
                 "id": "3a484c4b-7c6f-4f37-ab3e-49557ec7f052",
@@ -455,6 +479,14 @@
             }
         },
         {
+            "Key": "9cade2d5-51f4-4745-9c99-305df2ee9706",
+            "Value": {
+                "id": "f9d0fb29-9d41-4609-a678-2a90425c0ec5",
+                "resourcePath": "scripts\\feelox_idle\\feelox_idle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a012c626-3dda-416c-b8c9-6963556dd60e",
             "Value": {
                 "id": "8355517e-60f5-4243-b0ab-0f6bee773066",
@@ -484,6 +516,14 @@
                 "id": "ef7a6f5a-bb60-4a92-9401-4a9bc08effb9",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a95cf37e-2814-44dc-903b-9fe4fae68ccc",
+            "Value": {
+                "id": "5b867a2d-6596-4e72-a7f8-9e8e2b8f847e",
+                "resourcePath": "scripts\\feelox_walk\\feelox_walk.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -695,6 +735,14 @@
             }
         },
         {
+            "Key": "ecec5dab-8704-49b0-8767-d7b487dd7d4b",
+            "Value": {
+                "id": "d9274c25-94b1-43f6-8c3b-37bd4cf1ef9c",
+                "resourcePath": "scripts\\feelox_fall\\feelox_fall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f0dd253c-2532-4ed9-9121-5942b9de2dcd",
             "Value": {
                 "id": "855e6011-7616-4a37-bbbc-742e41014826",
@@ -756,11 +804,17 @@
         "304b3e46-be9a-4944-95c3-fabfa65c1695",
         "3ed8378d-ee9c-45da-a1b1-8d3acbaa86e1",
         "8192a854-5457-4e22-a1cc-3a725065df17",
+        "88b38a04-5926-4312-b534-90d61137c0dc",
+        "00f7f194-1b11-4a14-8061-0dbd4c8d552a",
         "604196fc-880c-4feb-8651-2995e4807eef",
         "023684eb-5cd5-4107-a7e4-ebcb73d164ea",
         "80eba3f3-b678-421e-b2fb-cffd89439dee",
         "89ef3e38-b92c-408c-8ed0-d6d22b08273e",
-        "72f16330-a9a2-44c5-8653-a4a33e1fb440"
+        "72f16330-a9a2-44c5-8653-a4a33e1fb440",
+        "9cade2d5-51f4-4745-9c99-305df2ee9706",
+        "a95cf37e-2814-44dc-903b-9fe4fae68ccc",
+        "ecec5dab-8704-49b0-8767-d7b487dd7d4b",
+        "07ef4087-245e-484e-bc99-b75aa6d3a852"
     ],
     "tutorial": ""
 }

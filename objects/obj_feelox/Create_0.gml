@@ -12,13 +12,11 @@ walkspd = 1;
 hspd = 0;
 vspd = 0;
 grav = 0.2;
-
-// For death animation
-tear = noone;
+dir = 0;
 
 // Timers
-state_timer = room_speed * 2;
-change_state_timer = 0;
+state_timer = irandom_range(1, 3);
+turn_timer = room_speed;
 
 // Setting the state machine
 state = STATE.IDLE;
