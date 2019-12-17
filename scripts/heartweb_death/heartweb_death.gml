@@ -20,7 +20,6 @@ if (sprite_index != spr_heartweb_death_air && spr_heartweb_death_ground) {
 		tear.creator = self;
 	}
 	
-	
 }
 
 // Knocking back

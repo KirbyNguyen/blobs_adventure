@@ -22,6 +22,7 @@ if (hurt_timer >= room_speed) {
 	// Switch to state ATTACK
 	if (distance <= RADIUS)
 		state = STATE.ATTACK;
-	else
+	// Switch to state IDLE
+	else 
 		state = STATE.IDLE;
 }
