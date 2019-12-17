@@ -3,6 +3,12 @@
 // Damage Heartweb
 event_inherited();
 
+// Distance from the Heartweb to Blob
+distance = distance_to_point(obj_blob.x, obj_blob.y);
+
+// Decreasing the attack timer
+attack_timer--;
+
 // STATE MACHINE
 switch (state) {
 	case STATE.JUMP:
@@ -21,7 +27,7 @@ switch (state) {
 		heartweb_death();
 		break;
 }
-
+	
 // Gravity
 if (state != STATE.JUMP || state == STATE.DEATH)
 	scr_gravity();

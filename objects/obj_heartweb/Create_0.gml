@@ -2,6 +2,7 @@
 
 // Constants
 IMGSPD = 0.35;
+RADIUS = 32 * 3;
 
 // Setting stats
 hp = 1;
@@ -14,11 +15,12 @@ vspd = 0;
 grav = 0.2;
 dir = 0;
 
-// For walking on the ground
-ableWalk = false;
+// Distance from the Heartweb to Blob
+distance = 0;
 
 // Timers
 state_timer = room_speed * 2;
+attack_timer = 0;
 
 // Setting the state machine
 state = STATE.JUMP;
