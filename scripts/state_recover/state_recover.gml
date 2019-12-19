@@ -4,7 +4,7 @@
 image_speed = IMGSPD + 0.75;
 	
 // Changing sprite
-if (sprite_index != spr_blob_recover) {
+if (sprite_index != spr_blob_recover && control_timer <= 0) {
 	sprite_index = spr_blob_recover;
 	image_index = 0;
 }

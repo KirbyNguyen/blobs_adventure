@@ -4,11 +4,13 @@
 image_speed = IMGSPD / 1.5;
 
 // Changing sprites
-if (sprite_index != spr_blob_dizzy || sprite_index != spr_blob_dizzy_a)
-	if (place_meeting(x, y + 1, obj_wall))
-		sprite_index = spr_blob_dizzy;
-	else if (!place_meeting(x, y + 1, obj_wall)) 
-		sprite_index = spr_blob_dizzy_a;
+if (control_timer <= 0) {
+	if (sprite_index != spr_blob_dizzy || sprite_index != spr_blob_dizzy_a)
+		if (place_meeting(x, y + 1, obj_wall))
+			sprite_index = spr_blob_dizzy;
+		else if (!place_meeting(x, y + 1, obj_wall)) 
+			sprite_index = spr_blob_dizzy_a;
+}
 
 // Changing back to normal state
 if (stamina >= 4) {

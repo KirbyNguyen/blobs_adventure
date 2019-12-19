@@ -6,7 +6,7 @@ if (!place_meeting(x, y, obj_ledge)) {
 	image_speed = IMGSPD + 0.75;
 	
 	// Changing sprite
-	if (sprite_index != spr_blob_attack) {
+	if (sprite_index != spr_blob_attack && control_timer <= 0) {
 		sprite_index = spr_blob_attack;
 		image_index = 0;
 	}

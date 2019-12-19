@@ -3,8 +3,13 @@
 // Getting player's inputs
 scr_getInput();
 
+// Decreasing the timer
+hurt_timer--; 
+control_timer--;
+
 // Horizontal Movement
-move = key_right - key_left;
+if (has_control <= 0) move = key_right - key_left;
+
 // Only if Blob is on the ground or jumping
 if ((state == STATE.ONGROUND || state == STATE.JUMP))
 	hspd = move * walkspd; 
@@ -66,9 +71,49 @@ switch(state) {
 	case STATE.DIZZY:
 		state_dizzy();
 		break;
+	case STATE.HURT:
+		state_hurt();
+		break;
+	case STATE.DEATH:
+		state_death();
+		break;
 	default:
 		state_onGround();
 }
+
+// Got hit by enemies
+if (place_meeting(x, y, obj_enemy) && hurt_timer <= 0) {
+	hp--;
+	var _dmg_source = instance_nearest(x, y, obj_enemy);
+	// Direction
+	var _dir = point_direction(_dmg_source.x, _dmg_source.y, x, y);
+	
+	// Setting the speed
+	hspd = lengthdir_x(walkspd * 1.5, _dir);
+	vspd = lengthdir_x(walkspd * 1.5, _dir);
+	
+	if (hp <= 0)
+		state = STATE.DEATH;
+	else {
+		
+		// Setting the timer
+		hurt_timer = room_speed * 2;
+		control_timer = room_speed / 2;
+		
+		if (sprite_index != spr_blob_death)
+			sprite_index = spr_blob_death;
+
+		if (control_timer > 0)
+			state = STATE.HURT;;
+	}
+}
+
+// Flashing sprite
+if (hurt_timer <= 0) image_alpha = 1;
+else if (hurt_timer % 9 == 0) image_alpha = 1 else image_alpha = 0.5;
+
+// Has control or not
+if (control_timer <= 0 && state != STATE.DEATH) has_control = true else has_control = false;
 
 // Flipping the sprite to the direction
 if (hspd != 0) image_xscale = sign(hspd);

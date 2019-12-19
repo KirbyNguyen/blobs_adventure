@@ -4,7 +4,7 @@
 image_speed = IMGSPD;
 
 // Changing sprites
-if (sprite_index != spr_blob_jump)
+if (sprite_index != spr_blob_jump && control_timer <= 0)
 	sprite_index = spr_blob_jump;
 	
 // Making the sprite freeze

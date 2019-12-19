@@ -8,7 +8,9 @@
         "023684eb-5cd5-4107-a7e4-ebcb73d164ea",
         "80eba3f3-b678-421e-b2fb-cffd89439dee",
         "89ef3e38-b92c-408c-8ed0-d6d22b08273e",
-        "72f16330-a9a2-44c5-8653-a4a33e1fb440"
+        "72f16330-a9a2-44c5-8653-a4a33e1fb440",
+        "5d2204a3-7bc2-4e25-8963-20daf31bd851",
+        "23034e7e-29b9-4ba1-ba22-3883d7b29350"
     ],
     "filterType": "GMScript",
     "folderName": "Blob's States",

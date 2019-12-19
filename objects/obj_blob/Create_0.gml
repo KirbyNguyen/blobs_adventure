@@ -16,10 +16,13 @@ walkspd = 2.5;
 hspd = 0;
 vspd = 0;
 grav = 0.2;
+has_control = true;
 
 // Timers
 jump_timer = 0; // For jump buffer
 stamina_timer = 0; // For stamina recover
+hurt_timer = 0;
+control_timer = 0;
 
 // Rates
 stamina_rate = 0.03;

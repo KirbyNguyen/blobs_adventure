@@ -5,15 +5,17 @@ image_speed = IMGSPD;
 
 // Setting the sprite
 // Making sure Blob is not in the process of slipping through a ledge
-if (place_meeting(x, y, obj_ledge) && key_down)
-	sprite_index = spr_blob_jump;
-else if (hspd == 0) {
-	if (sprite_index != spr_blob_idle && sprite_index != spr_blob_idle_b)
-		sprite_index = spr_blob_idle;
-}
-else {
-	if (sprite_index != spr_blob_walk && sprite_index != spr_blob_walk_b)
-		sprite_index = spr_blob_walk;
+if (has_control) {
+	if (place_meeting(x, y, obj_ledge) && key_down)
+		sprite_index = spr_blob_jump;
+	else if (hspd == 0) {
+		if (sprite_index != spr_blob_idle && sprite_index != spr_blob_idle_b)
+			sprite_index = spr_blob_idle;
+	}
+	else {
+		if (sprite_index != spr_blob_walk && sprite_index != spr_blob_walk_b)
+			sprite_index = spr_blob_walk;
+	}
 }
 
 // Changing state to JUMP if the player pressed JUMP KEY
