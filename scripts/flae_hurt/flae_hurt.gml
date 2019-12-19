@@ -3,7 +3,7 @@
 sprite_index = spr_flae_attack;
 
 // Flashing sprite
-if (hurt_timer % 9 == 0) image_alpha = 1 else image_alpha = 0;
+if (hurt_timer % 9 == 0) image_alpha = 0.75 else image_alpha = 0;
 
 // Increasing the timer
 hurt_timer++;

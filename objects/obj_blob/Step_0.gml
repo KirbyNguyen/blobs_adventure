@@ -8,7 +8,7 @@ hurt_timer--;
 control_timer--;
 
 // Horizontal Movement
-if (has_control <= 0) move = key_right - key_left;
+if (has_control) move = key_right - key_left;
 
 // Only if Blob is on the ground or jumping
 if ((state == STATE.ONGROUND || state == STATE.JUMP))
@@ -47,8 +47,10 @@ if (hp > MAXHP) hp = MAXHP;
 scr_gravity();
 	
 // Collision and movement
-scr_blob_ledgeCollision();
-scr_collision();
+if (state != STATE.DEATH) {
+	scr_blob_ledgeCollision();
+	scr_collision();
+}
 
 // Jump buffer
 jump_timer -= 1;
@@ -82,29 +84,39 @@ switch(state) {
 }
 
 // Got hit by enemies
-if (place_meeting(x, y, obj_enemy) && hurt_timer <= 0) {
-	hp--;
-	var _dmg_source = instance_nearest(x, y, obj_enemy);
-	// Direction
-	var _dir = point_direction(_dmg_source.x, _dmg_source.y, x, y);
-	
-	// Setting the speed
-	hspd = lengthdir_x(walkspd * 1.5, _dir);
-	vspd = lengthdir_x(walkspd * 1.5, _dir);
-	
-	if (hp <= 0)
-		state = STATE.DEATH;
-	else {
+if (state != STATE.DEATH) {
+	if (place_meeting(x, y, obj_enemy) 
+		&& hurt_timer <= 0
+		&& !instance_exists(obj_blobHitBox)) {
 		
-		// Setting the timer
-		hurt_timer = room_speed * 2;
-		control_timer = room_speed / 2;
+		// Damage source and the direction
+		var _dmg_source = instance_nearest(x, y, obj_enemy);
+		var _dir = point_direction(_dmg_source.x, _dmg_source.y, x, y);
+		// Decreasing hp
+		if (_dmg_source.image_alpha == 1) {
+				hp--;
+	
+			// Setting the speed
+			hspd = lengthdir_x(walkspd * 1.5, _dir);
+			vspd = lengthdir_x(walkspd * 1.5, _dir);
+	
+			if (hp <= 0) {
+				vspd = -10;
+				state = STATE.DEATH;
+			}
+			else {
 		
-		if (sprite_index != spr_blob_death)
-			sprite_index = spr_blob_death;
+				// Setting the timer
+				hurt_timer = room_speed * 2;
+				control_timer = room_speed / 2;
+		
+				if (sprite_index != spr_blob_death)
+					sprite_index = spr_blob_death;
 
-		if (control_timer > 0)
-			state = STATE.HURT;;
+				if (control_timer > 0)
+					state = STATE.HURT;;
+			}
+		}
 	}
 }
 

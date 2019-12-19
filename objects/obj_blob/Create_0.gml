@@ -16,6 +16,7 @@ walkspd = 2.5;
 hspd = 0;
 vspd = 0;
 grav = 0.2;
+move = 0;
 has_control = true;
 
 // Timers
