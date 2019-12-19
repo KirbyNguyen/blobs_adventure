@@ -25,9 +25,14 @@ if (key_jump && jump_timer > 0) {
 }
 
 // Change to ONGROUND if Blob is onground
-if (place_meeting(x, y + 1, obj_wall) || place_meeting(x, y + 1, obj_ledge))
-	state = STATE.ONGROUND;
+if (place_meeting(x, y + 1, obj_wall) || place_meeting(x, y + 1, obj_ledge)) {
 	
+	// Playing the sound
+	audio_sound_pitch(snd_blob_land, choose(1.0, 1.2, 1.4));
+	audio_play_sound(snd_blob_land, 4, false);
+
+	state = STATE.ONGROUND;
+}
 	// Changing to state ATTACK if ATTACK KEY is pressed
 if (key_attack && stamina > 0)
 	state = STATE.ATTACK;

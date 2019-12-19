@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "08c51919-a7a9-4477-8535-a0bfc1798187",
+            "Value": {
+                "id": "283e3da0-6faf-4774-83c1-6345ab5e0137",
+                "resourcePath": "sounds\\snd_blob_jump\\snd_blob_jump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0943c411-fc83-4fca-9b80-e90b8e4452f5",
             "Value": {
                 "id": "1d1750cc-478e-407b-a473-281aceded099",
@@ -132,6 +140,14 @@
                 "id": "eafee09c-8d8f-4c46-a19b-8177fcbd9ca7",
                 "resourcePath": "sprites\\spr_heartweb_death_ground\\spr_heartweb_death_ground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "16dcc3e7-3d90-4808-b020-94f6af1d1c40",
+            "Value": {
+                "id": "23a0cb19-8a96-4e44-b27b-82f12c592f21",
+                "resourcePath": "sounds\\snd_blob_attack\\snd_blob_attack.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -308,6 +324,14 @@
                 "id": "4a4e17f6-398d-4fa9-961d-f4a6f82838fc",
                 "resourcePath": "fonts\\fnt_mana_30\\fnt_mana_30.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "479cf78d-6581-4c67-aca6-033a8560e548",
+            "Value": {
+                "id": "75767a38-6e2f-4ea5-99c5-4d3e21abd57d",
+                "resourcePath": "sounds\\snd_blob_land\\snd_blob_land.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -500,6 +524,14 @@
                 "id": "b823da92-e645-429e-a4ce-c07f37a4b9a4",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7bb5f6ca-e688-4472-b119-8aa39b7aa788",
+            "Value": {
+                "id": "2a1010ac-0ea8-41ec-bc77-5bda1c2a131d",
+                "resourcePath": "sounds\\snd_block_destroy\\snd_block_destroy.yy",
+                "resourceType": "GMSound"
             }
         },
         {

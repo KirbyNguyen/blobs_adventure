@@ -20,6 +20,11 @@ if (has_control) {
 
 // Changing state to JUMP if the player pressed JUMP KEY
 if (key_jump && jump_timer > 0 && !place_meeting(x, y, obj_ledge)) {
+	
+	// Playing the sound
+	audio_sound_pitch(snd_blob_jump, choose(0.8, 1.0, 1.2));
+	audio_play_sound(snd_blob_jump, 4, false);
+	
 	vspd -= 5.5;
 	jump_timer = 0;
 	state = STATE.JUMP;
