@@ -7,7 +7,7 @@ if (sprite_index != spr_heartweb_down) {
 	
 }
 
-if (place_meeting(x, y + 1, obj_wall)) {
+if (place_meeting(x, y + 1, obj_wall) || place_meeting(x, y + 1, obj_ledge)) {
 	path_end();
 	state = STATE.IDLE;
 }

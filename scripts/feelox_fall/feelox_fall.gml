@@ -9,5 +9,5 @@ if (sprite_index != spr_feelox_fall) {
 }
 
 // Change to state IDLE when Feelox touches the floor
-if (place_meeting(x, y + 1, obj_wall))
+if (place_meeting(x, y + 1, obj_wall) || place_meeting(x, y + 1, obj_ledge))
 	state = STATE.IDLE;

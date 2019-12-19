@@ -15,9 +15,9 @@ if (image_index + 1 > 4) {
 		state = STATE.DIZZY;
 		scr_createSpikes(); // Bursts out spikes in four direction
 	}
-	else if (place_meeting(x, y + 1, obj_wall)) 
+	else if (place_meeting(x, y + 1, obj_wall) || !place_meeting(x, y + 1, obj_ledge)) 
 		state = STATE.ONGROUND;
-	else if (!place_meeting(x, y + 1, obj_wall))
+	else if (!place_meeting(x, y + 1, obj_wall) && !place_meeting(x, y + 1, obj_ledge))
 		state = STATE.JUMP;
 		
 	// Set the timer for recover rate

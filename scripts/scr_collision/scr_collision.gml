@@ -1,7 +1,7 @@
 /// @desc scr_collision()
 
 // Horizontal Collision
-if (place_meeting(x + hspd, y, spr_wall)) {
+if (place_meeting(x + hspd, y, obj_wall)) {
 	// Slowly approaching the wall
 	while (!place_meeting(x + sign(hspd), y, obj_wall)) {
 		x += sign(hspd);
@@ -12,7 +12,7 @@ if (place_meeting(x + hspd, y, spr_wall)) {
 x += hspd; // Changing x-position
 
 // Vertical Collision
-if (place_meeting(x, y + vspd, spr_wall)) {
+if (place_meeting(x, y + vspd, obj_wall)) {
 	// Slowly approaching the wall
 	while (!place_meeting(x, y + sign(vspd), obj_wall)) {
 		y += sign(vspd);

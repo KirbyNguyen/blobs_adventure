@@ -25,7 +25,7 @@ if (key_jump && jump_timer > 0) {
 }
 
 // Change to ONGROUND if Blob is onground
-if (place_meeting(x, y + 1, obj_wall))
+if (place_meeting(x, y + 1, obj_wall) || place_meeting(x, y + 1, obj_ledge))
 	state = STATE.ONGROUND;
 	
 	// Changing to state ATTACK if ATTACK KEY is pressed

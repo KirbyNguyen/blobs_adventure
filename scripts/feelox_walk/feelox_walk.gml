@@ -16,7 +16,7 @@ if (sprite_index != spr_feelox_walk) {
 scr_enemy_turnAround(hspd * 4, obj_wall.sprite_height + 1);
 
 // Change to JUMP when in air
-if (!place_meeting(x, y + 1, obj_wall)) 
+if (!place_meeting(x, y + 1, obj_wall) && !place_meeting(x, y + 1, obj_ledge)) 
 	state = STATE.JUMP;
 
 // Change back to IDLE when timer hits 0 and when the animation is finished

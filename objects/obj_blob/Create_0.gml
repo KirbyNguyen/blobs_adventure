@@ -7,7 +7,7 @@ IMGSPD = 0.6;
 FRACTION = 0.75;
 
 // Setting stats
-hp = 1;
+hp = MAXHP;
 stamina = MAXSTAMINA;
 life = 2;
 

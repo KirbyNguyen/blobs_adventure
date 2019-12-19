@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "582e9529-99b1-4ea2-a784-11f3c14d6622",
+            "Value": {
+                "id": "94ac9272-4bfa-422f-97f2-4b996da46b83",
+                "resourcePath": "objects\\obj_ledge\\obj_ledge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5adde8d2-48e9-4d63-a0fd-e96b5ef5cab6",
             "Value": {
                 "id": "e70208c4-506d-4656-af3f-5f8b399561a8",
@@ -719,6 +727,14 @@
             }
         },
         {
+            "Key": "b082c304-9e06-490d-aecc-a514402232cd",
+            "Value": {
+                "id": "2c37e699-0dd0-4f28-9b9e-7284f8b68373",
+                "resourcePath": "scripts\\scr_blob_ledgeCollision\\scr_blob_ledgeCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b58a44be-906a-451c-8ca9-5881c6c33df3",
             "Value": {
                 "id": "25c1a40d-1e3a-4a72-9a14-296a58e8ad4d",
@@ -943,6 +959,14 @@
             }
         },
         {
+            "Key": "e82f95a2-3e4b-4c4c-91df-0c7c0feabd82",
+            "Value": {
+                "id": "417f333f-28d1-429d-864a-dc26b63b453e",
+                "resourcePath": "scripts\\scr_enemy_ledgeCollision\\scr_enemy_ledgeCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e8abf183-e357-4a36-8f17-c6b0b593847b",
             "Value": {
                 "id": "ab5679ee-f5e8-4c41-9588-e8eb635bc882",
@@ -1039,6 +1063,14 @@
             }
         },
         {
+            "Key": "f79a8f1c-0106-4a49-8911-078bd240d18e",
+            "Value": {
+                "id": "bf221c15-09ef-4c7a-b2bd-4c8ae2d55802",
+                "resourcePath": "sprites\\spr_ledge\\spr_ledge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7a20fbc-f6ce-478b-88a1-838d52c5342a",
             "Value": {
                 "id": "cd995954-f4ca-4785-9bc3-c2a6fecc3b56",
@@ -1094,6 +1126,8 @@
         "8192a854-5457-4e22-a1cc-3a725065df17",
         "88b38a04-5926-4312-b534-90d61137c0dc",
         "00f7f194-1b11-4a14-8061-0dbd4c8d552a",
+        "e82f95a2-3e4b-4c4c-91df-0c7c0feabd82",
+        "b082c304-9e06-490d-aecc-a514402232cd",
         "604196fc-880c-4feb-8651-2995e4807eef",
         "023684eb-5cd5-4107-a7e4-ebcb73d164ea",
         "80eba3f3-b678-421e-b2fb-cffd89439dee",

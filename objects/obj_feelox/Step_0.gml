@@ -23,7 +23,9 @@ switch (state) {
 scr_gravity();
 
 // Collision and Movement
+scr_enemy_ledgeCollision();
 scr_collision();
+
 
 // Making Feelox turn to the right direction
 if (state != STATE.DEATH)

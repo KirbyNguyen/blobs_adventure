@@ -33,6 +33,7 @@ if (state != STATE.JUMP || state == STATE.DEATH)
 	scr_gravity();
 
 // Collision and Movement
+scr_enemy_ledgeCollision();
 scr_collision();
 
 // Making Heartweb turn to the right direction
