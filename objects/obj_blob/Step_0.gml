@@ -35,6 +35,9 @@ state != STATE.ATTACK && state != STATE.RECOVER) {
 		stamina = MAXSTAMINA;
 }
 
+// Make sure HP never reached MAXHP
+if (hp > MAXHP) hp = MAXHP;
+
 // Gravity
 scr_gravity();
 
