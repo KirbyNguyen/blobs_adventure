@@ -11,7 +11,7 @@ if ((state == STATE.ONGROUND || state == STATE.JUMP))
 
 // If Blob is on air, move horizontally at a slower rate
 // If Blob is on ground, she slowly stops
-if (!place_meeting(x, y + 1, obj_wall) || !place_meeting(x, y + 1, obj_ledge)) 
+if (!place_meeting(x, y + 1, obj_wall) && !place_meeting(x, y + 1, obj_ledge)) 
 	hspd = move * walkspd / 1.5;
 else 
 	hspd *= FRACTION;
