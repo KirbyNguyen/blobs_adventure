@@ -126,10 +126,19 @@ if (place_meeting(x, y, obj_instant_death)) {
 	state = STATE.DEATH;
 }
 
+// Die when timer hits zero
+if (obj_controller.timer <= 0)
+	state = STATE.DEATH;
+
 // Flashing sprite
 if (hurt_timer <= 0) image_alpha = 1;
 else if (hurt_timer % 9 == 0) image_alpha = 1 else image_alpha = 0.5;
 
+// Moving to the next room
+if (place_meeting(x, y, obj_door)) {
+	if (keyboard_check(vk_up))
+		room_goto(obj_door.target);
+}
 // Has control or not
 if (control_timer <= 0 && state != STATE.DEATH) has_control = true else has_control = false;
 

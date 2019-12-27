@@ -1,0 +1,3 @@
+/// @description Initialization
+
+target = noone;

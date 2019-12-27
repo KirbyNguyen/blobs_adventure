@@ -1,34 +1,24 @@
 {
-    "id": "25cb0c7b-4093-44c8-9528-103f84b3987b",
+    "id": "263cdb26-fe8c-415b-b518-8c2228f1b664",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_camera",
+    "name": "obj_door",
     "eventList": [
         {
-            "id": "2012a1ad-6148-40fe-b9c9-cd21ea3abc54",
+            "id": "65b9ac9c-a421-4708-9d8c-ca66d7e1e978",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "25cb0c7b-4093-44c8-9528-103f84b3987b"
-        },
-        {
-            "id": "7e02f369-7371-41ab-aeaf-fe3cc2710189",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "25cb0c7b-4093-44c8-9528-103f84b3987b"
+            "m_owner": "263cdb26-fe8c-415b-b518-8c2228f1b664"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "87c2a898-ad9f-4d5a-8fb0-85e78de48d37",
     "visible": true
 }
