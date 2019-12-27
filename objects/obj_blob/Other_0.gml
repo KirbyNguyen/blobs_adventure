@@ -1,5 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Instantly kill Blob
 
-x = obj_spawner.blobX;
-y = obj_spawner.blobY;
+if (life == 1)
+	game_restart();
+else {
+	life -= 1;
+	x = obj_spawner.blobX;
+	y = obj_spawner.blobY;
+}
+hp = MAXHP;

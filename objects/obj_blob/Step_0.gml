@@ -92,6 +92,7 @@ if (state != STATE.DEATH) {
 		// Damage source and the direction
 		var _dmg_source = instance_nearest(x, y, obj_enemy);
 		var _dir = point_direction(_dmg_source.x, _dmg_source.y, x, y);
+		
 		// Decreasing hp
 		if (_dmg_source.image_alpha == 1) {
 				hp--;
