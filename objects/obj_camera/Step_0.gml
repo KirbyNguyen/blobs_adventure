@@ -4,6 +4,11 @@
 if (instance_exists(follow)) { // TODO: if the player is dead, fix camera
 	xTo = follow.x;
 	yTo = follow.y;
+	
+	if (follow.state == STATE.DEATH) {
+		x = xTo;
+		y = yTo;
+	}
 }
 
 // Update project position

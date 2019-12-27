@@ -121,6 +121,11 @@ if (state != STATE.DEATH) {
 	}
 }
 
+// Instant death from touching obj_instant_death
+if (place_meeting(x, y, obj_instant_death)) {
+	state = STATE.DEATH;
+}
+
 // Flashing sprite
 if (hurt_timer <= 0) image_alpha = 1;
 else if (hurt_timer % 9 == 0) image_alpha = 1 else image_alpha = 0.5;
