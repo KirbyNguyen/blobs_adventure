@@ -20,7 +20,7 @@
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 0,
-            "y": 16,
+            "y": 10,
             "speed": 100
         }
     ],
