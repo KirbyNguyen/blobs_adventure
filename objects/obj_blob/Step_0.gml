@@ -136,8 +136,10 @@ else if (hurt_timer % 9 == 0) image_alpha = 1 else image_alpha = 0.5;
 
 // Moving to the next room
 if (place_meeting(x, y, obj_door)) {
-	if (keyboard_check(vk_up))
-		room_goto(obj_door.target);
+	if (keyboard_check(vk_up)) {
+		room_goto(obj_transition.target);
+		obj_transition.mode = TRANS_MODE.GOTO;
+	}
 }
 // Has control or not
 if (control_timer <= 0 && state != STATE.DEATH) has_control = true else has_control = false;

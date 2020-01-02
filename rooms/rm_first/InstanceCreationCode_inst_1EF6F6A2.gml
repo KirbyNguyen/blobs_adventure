@@ -1,1 +1,1 @@
-target = rm_second;
+obj_transition.target = rm_second;

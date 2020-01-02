@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "ab9f016c-f6fd-4dd2-b4b9-fc265940c785",
+            "Value": {
+                "id": "963707ec-bc80-49a0-9260-1104ed96ae4d",
+                "resourcePath": "objects\\obj_transition\\obj_transition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "abba3d7c-e64c-42ef-bea8-8a634b63fe5b",
             "Value": {
                 "id": "03d06fa6-9a79-4aa9-bf4d-d1306ef742d3",
