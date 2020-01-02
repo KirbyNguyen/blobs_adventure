@@ -31,5 +31,3 @@ if (mode != TRANS_MODE.OFF) {
 		}
 	}
 }
-
-image_alpha = percent;

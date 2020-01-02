@@ -1,2 +1,2 @@
-obj_blob.x = 95;
-obj_blob.y = 639;
+obj_blob.x = 96;
+obj_blob.y = 660;
