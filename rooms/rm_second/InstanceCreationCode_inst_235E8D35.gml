@@ -1,0 +1,1 @@
+obj_transition.target = rm_third;
