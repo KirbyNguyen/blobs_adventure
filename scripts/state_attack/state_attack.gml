@@ -11,13 +11,16 @@ if (!place_meeting(x, y, obj_ledge)) {
 		image_index = 0;
 	}
 
-	// Stopping animation and creates the hitbox
-	if (image_index >= 4) {
-		image_speed = 0;
+	if (image_index >= 2) {
 		// Creating hit box
 		if (!instance_exists(obj_blobHitBox))
 			hitbox = instance_create_layer(x, y, "Attack", obj_blobHitBox);
-		
+	}
+	
+	// Stopping animation and creates the hitbox
+	if (image_index >= 4) {
+		image_speed = 0;
+
 		// Decreasing stamina
 		stamina -= stamina_rate * 1.5;
 	}

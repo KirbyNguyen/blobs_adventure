@@ -1,2 +1,2 @@
-blobX = obj_blob.xstart;
-blobY = obj_blob.ystart;
+blobX = 96;
+blobY = 660;
