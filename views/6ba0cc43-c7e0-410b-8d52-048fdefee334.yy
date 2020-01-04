@@ -13,7 +13,8 @@
         "582e9529-99b1-4ea2-a784-11f3c14d6622",
         "263cdb26-fe8c-415b-b518-8c2228f1b664",
         "ab9f016c-f6fd-4dd2-b4b9-fc265940c785",
-        "4422535d-9a9e-4329-8a50-4aa5e3de2861"
+        "4422535d-9a9e-4329-8a50-4aa5e3de2861",
+        "b8b2b5ff-8aae-4bc8-b415-0c281390104b"
     ],
     "filterType": "GMObject",
     "folderName": "Templates",

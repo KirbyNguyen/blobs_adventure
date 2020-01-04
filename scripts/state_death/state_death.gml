@@ -8,8 +8,9 @@ y += vspd; // Falling down
 
 if (y > view_yport[0] + view_hport[0]) {
 	
-	if (life == 1)
+	if (life == 1) {
 		game_restart();
+	}
 	else {
 		x = obj_spawner.blobX;
 		y = obj_spawner.blobY - 50;
